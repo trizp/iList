@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553210984157",
+    "project_id": "projectwarung-cd0b2",
+    "storage_bucket": "projectwarung-cd0b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553210984157:android:a1f54a69d9ea568d57cd34",
+        "android_client_info": {
+          "package_name": "com.example.projectwarung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553210984157-u44oa6qsestn85lapn6jvp2s5hdtgkpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEbTtLWR0aWoJntaRoQOm8e4hpmtSLyTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553210984157-u44oa6qsestn85lapn6jvp2s5hdtgkpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

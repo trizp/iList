@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:paddingTop="70dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/img">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:fontFamily="@font/semiboldpop"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:paddingBottom="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah data mu!"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bolditalicpop">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_barang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:hint="Nama Barang"
+        android:drawableStart="@drawable/ic_baseline_receipt"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/regularpop"
+        android:background="@drawable/rounded_border"
+        android:layout_marginBottom="30dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:hint="Harga"
+        android:drawableStart="@drawable/ic_baseline_money"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/regularpop"
+        android:background="@drawable/rounded_border">
+    </EditText>
+
+</LinearLayout>

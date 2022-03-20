@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        android:fontFamily="@font/semiboldpop"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:paddingBottom="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Data mu!"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bolditalicpop">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_barang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:hint="Nama Barang"
+        android:drawableStart="@drawable/ic_baseline_receipt"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/regularpop"
+        android:background="@drawable/rounded_border"
+        android:layout_marginBottom="30dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:hint="Harga"
+        android:drawableStart="@drawable/ic_baseline_money"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/regularpop"
+        android:background="@drawable/rounded_border">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:fontFamily="@font/semiboldpop"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#16B3FB"
+        android:text="save"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Barang"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:fontFamily="@font/semiboldpop"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:paddingBottom="5dp">
+    </TextView>
+
+    <ListView
+        android:id="@+id/lv_wrg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ListView>
+
+</LinearLayout>
